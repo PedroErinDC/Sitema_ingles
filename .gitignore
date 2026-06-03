@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Env / secrets
+.env
+
+# Node
+node_modules/
+dist/
+
+# Databases (runtime data)
+data/*.db
+
+# User content — never commit media or generated files
+data/tmp_ingest/
+data/workspace/
+data/media_library/
+data/corrections/
+
+# Windows zone identifiers (WSL ADS files)
+*:Zone.Identifier
+
+# Dev tool artifacts
+skills-lock.json

@@ -1,0 +1,17 @@
+streamlit
+ollama
+faster-whisper
+nemo_toolkit[asr]
+sentence-transformers
+networkx
+numpy
+spacy
+pymupdf
+pdfplumber
+argostranslate
+yt-dlp
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg[binary]
+python-multipart
